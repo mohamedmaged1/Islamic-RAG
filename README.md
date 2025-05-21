@@ -16,3 +16,15 @@ $ conda create -n yalla python=10.0
 $ conda activate yalla 
 ```
 
+## Installation
+### Install the reqired packages
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables
+```bash
+cp .env.example .env
+```
+
+set your environment variable in the `.env` file. Like `OPENAI_API_KEY` value .
