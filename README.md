@@ -28,3 +28,6 @@ cp .env.example .env
 ```
 
 set your environment variable in the `.env` file. Like `OPENAI_API_KEY` value .
+
+### LLM judge 
+- 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
