@@ -41,6 +41,12 @@ On Windows :
 * One problem I faced that to extract the text from the book I should used OCR that's why I used tessdata.
 * Also, because the book contain Qura'an sentences with dicritics, sometimes when converting this using OCR I got wrong sentences.
 * To solve this problem I wrote in the prompt to not include Qur'an answer in the generating.
+* To convert your dataset, after running the code the all splits will be saved in order to load it again without rerunning the code
+```bash
+cp python handlingData.py
+```
+
+
 
 ### LLM judge 
 - 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
