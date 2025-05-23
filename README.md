@@ -43,7 +43,7 @@ On Windows :
 * To solve this problem I wrote in the prompt to not include Qur'an answer in the generating.
 * To convert your dataset, after running the code the all splits will be saved in order to load it again without rerunning the code
 ```bash
-cp python handlingData.py
+python handlingData.py
 ```
 
 
