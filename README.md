@@ -29,5 +29,18 @@ cp .env.example .env
 
 set your environment variable in the `.env` file. Like `OPENAI_API_KEY` value .
 
+### For installing Arabic Language in tessdata 
+On Windows :
+1) Download and install Arabic from [here] (https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata)
+2) Place it into tessdata folder (e.g., C:\Program Files\Tesseract-OCR\tessdata)
+
+### Creating RAG system 
+#### Data
+* I used a book name "ما لا يسع المسلم جهله " for retreiving.
+* Then because the book in the form of PDF I converted it to a text.
+* One problem I faced that to extract the text from the book I should used OCR that's why I used tessdata.
+* Also, because the book contain Qura'an sentences with dicritics, sometimes when converting this using OCR I got wrong sentences.
+* To solve this problem I wrote in the prompt to not include Qur'an answer in the generating.
+
 ### LLM judge 
 - 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
