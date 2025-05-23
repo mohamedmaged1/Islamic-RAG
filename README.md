@@ -49,4 +49,4 @@ python handlingData.py
 
 
 ### LLM judge 
-- 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
+1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
