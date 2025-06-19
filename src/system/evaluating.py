@@ -35,13 +35,6 @@ sumPrompt_prompt = ChatPromptTemplate.from_messages([
 prompt = eval_prompt
 prompt2 = sumPrompt_prompt
 
-# # LLM setup (adjust for your OpenAI, DashScope, or other provider)
-# llm = ChatOpenAI(
-#     model_name="qwen3-8b",  # or qwen-Turpo, qwen-plus, qwen-max,deepseek-r1, qwen3-8b
-#     openai_api_key=dashscope_api_key,
-#     openai_api_base=dashscope_base_url,
-#     temperature=0.4,
-#     extra_body={"enable_thinking": False} )
 
 def creatingllm(model_name,temp=0.4):
     llm = ChatOpenAI(
