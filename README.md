@@ -31,7 +31,7 @@ set your environment variable in the `.env` file. Like `OPENAI_API_KEY` value .
 
 ### For installing Arabic Language in tessdata 
 On Windows :
-1) Download and install Arabic from [here] (https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata)
+1) Download and install Arabic from [here](https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata)
 2) Place it into tessdata folder (e.g., C:\Program Files\Tesseract-OCR\tessdata)
 
 # Creating RAG system 
@@ -67,8 +67,6 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 - Constructed a **hybrid evaluation dataset** by combining:
   - Filtered, automatically generated questions from both models.
   - Manually curated and labeled question samples.
-
-## Sensitivity
 
 ## LLM judge 
 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
