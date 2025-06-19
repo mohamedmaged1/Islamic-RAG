@@ -34,8 +34,8 @@ On Windows :
 1) Download and install Arabic from [here] (https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata)
 2) Place it into tessdata folder (e.g., C:\Program Files\Tesseract-OCR\tessdata)
 
-### Creating RAG system 
-#### Data
+# Creating RAG system 
+## Data
 * I used a book name "ما لا يسع المسلم جهله " for retreiving.
 * Then because the book in the form of PDF I converted it to a text.
 * One problem I faced that to extract the text from the book I should used OCR that's why I used tessdata.
