@@ -6,6 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import DashScopeEmbeddings  # Changed this
 from langchain_core.prompts import ChatPromptTemplate
 import pickle
+from helpers.config import get_settings,Settings
 
 
 
@@ -13,8 +14,9 @@ os.environ["LANGSMITH_TRACING"] = "true"
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY'] = "your_api_key_here"
 # Configure API key
-dashscope_api_key = ""
-dashscope_base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+dashscope_api_key = get_settings().DASHSCOPE_API_KEY
+dashscope_base_url = get_settings().DASHSCOPE_BASE_URL
 
 
 with open("./Data/all_splits.pkl", "rb") as f:
