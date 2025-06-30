@@ -12,8 +12,6 @@ This projects aimes to retrieve islamic Fiqh answers from an islamic dataset and
 $ pip install -r requirements.txt
 ```
 
-set your environment variable in the `.env` file. Like `OPENAI_API_KEY` value .
-
 ### For installing Arabic Language in tessdata 
 On Windows :
 1) Download and install Arabic from [here](https://github.com/tesseract-ocr/tessdata/blob/main/ara.traineddata)
