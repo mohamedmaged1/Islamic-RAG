@@ -20,6 +20,8 @@ On Windows :
 2) Place it into tessdata folder (e.g., C:\Program Files\Tesseract-OCR\tessdata)
 
 # Creating RAG system 
+![RAG system flowchart ](E:\YallaIntern\src\system\image1.png)
+
 ## Data
 * I used a book name "ما لا يسع المسلم جهله " for retreiving.
 * Then because the book in the form of PDF I converted it to a text.
@@ -36,7 +38,7 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 
 ### 1. Automatic Question Generation  
 - Generated **200 evaluation questions** using the models **Qwen3-8B** and **Qwen-Plus**.
-
+![Citeria of generating the image ](E:\YallaIntern\src\system\image1.png)
 ### 2. Setup of Critique Agents  
 - Used the same models (**Qwen3-8B** & **Qwen-Plus**) as **critique agents** to assess the quality of the generated questions.
 - Each question was scored on a **scale from 1 to 5** based on the following three criteria:
@@ -44,6 +46,9 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
   - **Relevance**: Is the question meaningful and useful to the end user?  
     *Example: "How useful is this question for a Muslim user?"*
   - **Stand-Alone Clarity**: Is the question understandable without needing to refer back to context, assuming the user has domain knowledge or access to the internet?
+  ### 2.1. Example of Generated Questions
+
+
 
 ### 3. Filtering and Selection  
 - Retained questions **only if all criterion scores exceeded a predefined threshold**.
@@ -53,5 +58,7 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
   - Filtered, automatically generated questions from both models.
   - Manually curated and labeled question samples.
 
-## LLM judge 
+## LLM judge and tackiling sensitivity problem
 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
+
+![Citeria of generating the image ](E:\YallaIntern\src\system\image.png)
