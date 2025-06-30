@@ -60,4 +60,4 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 ![Citeria of generating the image](./src/system/images/image.png)
 
 ## Sample of the output
-![Sample generating the image](./src/system/images/Sample.png)
+![Sample generating the image](./src/system/images/sample.png)
