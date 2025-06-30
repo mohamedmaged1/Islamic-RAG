@@ -20,7 +20,7 @@ On Windows :
 2) Place it into tessdata folder (e.g., C:\Program Files\Tesseract-OCR\tessdata)
 
 # Creating RAG system 
-![RAG system flowchart ](E:\YallaIntern\src\system\image1.png)
+![RAG system flowchart](E:\YallaIntern\src\system\image1.png)
 
 ## Data
 * I used a book name "ما لا يسع المسلم جهله " for retreiving.
