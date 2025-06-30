@@ -58,3 +58,6 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 1) For more information about using LLM as a judge from [here](https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
 
 ![Citeria of generating the image](./src/system/images/image.png)
+
+## Sample of the output
+![Sample generating the image](./src/system/images/Sample.png)
