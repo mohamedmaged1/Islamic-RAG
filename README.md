@@ -38,7 +38,7 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 
 ### 1. Automatic Question Generation  
 - Generated **200 evaluation questions** using the models **Qwen3-8B** and **Qwen-Plus**.
-![Citeria of generating the image](src\system\image1.png)
+![Citeria of generating the image](./src/system/image1.png)
 ### 2. Setup of Critique Agents  
 - Used the same models (**Qwen3-8B** & **Qwen-Plus**) as **critique agents** to assess the quality of the generated questions.
 - Each question was scored on a **scale from 1 to 5** based on the following three criteria:
@@ -61,4 +61,4 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
 ## LLM judge and tackiling sensitivity problem
 1) For more information about using LLM as a judge from [here] (https://www.evidentlyai.com/llm-guide/llm-as-a-judge)
 
-![Citeria of generating the image](src\system\image.png)
+![Citeria of generating the image](./src/system/image.png)
