@@ -46,8 +46,6 @@ To create an evaluation dataset, I followed Hugging Face's guidance on automatic
   - **Relevance**: Is the question meaningful and useful to the end user?  
     *Example: "How useful is this question for a Muslim user?"*
   - **Stand-Alone Clarity**: Is the question understandable without needing to refer back to context, assuming the user has domain knowledge or access to the internet?
-  ### 2.1. Example of Generated Questions
-
 
 
 ### 3. Filtering and Selection  
