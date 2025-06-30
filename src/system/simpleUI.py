@@ -10,7 +10,7 @@ iface = gr.Interface(
     fn=qa_system,
     inputs=gr.Textbox(label="اكتب سؤالك هنا", placeholder="ما حكم صلاة الجمعة؟", lines=2),
     outputs=gr.Markdown(),#gr.Textbox(gr.Markdown(label="الإجابة"))
-    title="نظام الأسئلة والأجوبة الفقهي باستخدام RAG",
+    title="نظام الأسئلة والأجوبة الفقهي من كتاب ما لا يسع المسلم جهله RAG",
     description="اكتب سؤالك الديني وسيتولى النظام الإجابة اعتمادًا على المرجع الذي تم تدريبه عليه."
 )
 
