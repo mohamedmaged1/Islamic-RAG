@@ -1,4 +1,4 @@
-# Islamic Fiqh Rag
+# Islamic Fiqh RAG
 
 This projects aimes to retrieve islamic Fiqh answers from an islamic dataset and use Qwen-max to generate the answer
 
