@@ -11,7 +11,7 @@ import os
 
 # ========== Configuration ==========
 DASHSCOPE_API_KEY = "<>"
-DASHSCOPE_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+DASHSCOPE_BASE_URL = "<>"
 
 # ========= Load Data =========
 with open("./Data/all_splits.pkl", "rb") as f:
