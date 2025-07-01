@@ -1,6 +1,6 @@
 # Islamic Fiqh RAG
 
-This projects aimes to retrieve islamic Fiqh answers from an islamic dataset and use Qwen-max to generate the answer
+This projects aimes to retrieve islamic Fiqh answers from an islamic dataset and use LLMs to generate the answer
 
 ## Requirements 
 - Python 3.10 or later 
