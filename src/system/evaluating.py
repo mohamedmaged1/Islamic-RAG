@@ -96,7 +96,7 @@ for evaluatedModel in evaluatedModels:
 
     # Save to CSV
     output_df = pd.DataFrame(results)
-    output_df.to_csv(f"E:\Projects\Qwen3eval\evaluated_fiqh_responses{evaluatedModel}.csv", index=False, encoding="utf-8-sig")
+    output_df.to_csv(f".\evaluated_fiqh_responses{evaluatedModel}.csv", index=False, encoding="utf-8-sig")
 
     countNan = 0
     totalscore = 0
@@ -113,7 +113,7 @@ for evaluatedModel in evaluatedModels:
     finalScore = totalscore/ ((len(output_df) - countNan)*5)  
     print(finalScore*100, "%")
     print("Total NaN scores:", countNan)
-    print("✅ Evaluation completed and saved.")
+    print("Evaluation completed and saved.")
 
     
 
